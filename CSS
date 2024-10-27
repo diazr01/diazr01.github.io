@@ -1,1 +1,9 @@
+/* Using a hexadecimal color code */
+.index.html {
+  color: #C2DFFF;
+}
 
+/* Using the color name */
+.index.html {
+  color: lightseagreen;
+}
