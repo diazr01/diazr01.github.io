@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
+   <style>
     /* Style   
  for all tables, th, and td, except for the Hobbies table */
     table.bordered, th, td {
@@ -11,8 +11,14 @@
     }
 
     /* Style specifically for the Hobbies table to remove borders */
-    table.Hobbies, th.Hobbies, td.Hobbies {
+    table.Hobbies {
+      border-collapse: collapse; /* This ensures no spacing between cells */
+    }
+
+    /* Style for table cells within the Hobbies table to remove borders */
+    table.Hobbies td {
       border: none;
+      padding: 10px; /* Optional: Add padding for better spacing */
     }
   </style>
 </head>
@@ -57,7 +63,7 @@
                 </td>
               </tr>
             </tbody>
-          </table>
+          </table> <!-- Section the ordered and unordered list -->
         </table>
 
         <div class="Fun Facts about me">
@@ -69,29 +75,29 @@
               <li>Learned how to swim by accident</li>
             </ol>
           </div>
-        </div>
+        </div><!-- Section the ordered list -->
       </div>
 
-      <div class="Hobbies">
-        <h2>Hobbies</h2>
-        <table class="Hobbies">
-          <tbody>
-            <tr>
-              <td>Travelling 🧳</td>
-              <td>I love discovering new places and visiting new countries</td>
-            </tr>
-            <tr>
-              <td>Eating 🍽️</td>
-              <td>Food is something that makes me happy, so for me, it is exciting to try new dishes</td>
-            </tr>
-            <tr>
-              <td>Cars 🚗</td>
-              <td>I recently bought myself a car and I love it!</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
+     <div class="Hobbies">
+    <h2>Hobbies</h2>
+    <table class="Hobbies">
+      <tbody>
+        <tr>
+          <td>Travelling 🧳</td>
+          <td>I love discovering new places and visiting new countries</td>
+        </tr>
+        <tr>
+          <td>Eating 🍽️</td>
+          <td>Food is something that makes me happy, so for me, it is exciting to try new dishes</td>
+        </tr>
+        <tr>
+          <td>Cars 🚗</td>
+          <td>I recently bought myself a car and I love it!</td>
+        </tr>
+      </tbody>
+    </table>
   </div>
+
 
   <footer>
     © 2024 My Website by Ramiro Diaz | All rights reserved.
