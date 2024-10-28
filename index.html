@@ -1,96 +1,103 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Style   
+ for all tables, th, and td, except for the Hobbies table */
+    table.bordered, th, td {
+      border: 1px solid black;
+    }
+
+    /* Style specifically for the Hobbies table to remove borders */
+    table.Hobbies, th.Hobbies, td.Hobbies {
+      border: none;
+    }
+  </style>
 </head>
-<!-- Style, includes adding borders to the bordered table -->
-	<style>  
-		table.Hobbies, th.Hobbies, td.Hobbies { border: none;}
-  	</style>
-	<style>
-		table.bordered, th, td {border:1px solid black;}
-	</style>
-	
-	
-<body>	
-<div class="profile-container">
-        <div class="profile-info">
-            <h1>Ramiro Diaz</h1>
+<body>
+  <div class="profile-container">
+    <div class="profile-info">
+      <h1>Ramiro Diaz</h1>
       <div class="profile-image">
-           
-     <a href="https://ibb.co/HVnQB8z"><img src="https://i.ibb.co/HVnQB8z/DSCF1704.jpg" alt="DSCF1704" border="0"></a>
-    <p> 
-<!-- Image link -->
-	    
+        <a href="https://ibb.co/HVnQB8z"><img src="https://i.ibb.co/HVnQB8z/DSCF1704.jpg" alt="DSCF1704" border="0"></a>
+      </div>
+      <p></p>
 
-<div class="about-me-container">
-  <h2>About Me</h2>
-<p>Finance and economics student with a passion for financial markets.</p>
-<p>My academic experience includes hands-on investment management and consulting roles, where I honed analytical and problem-solving skills. </p>
-<p>s a D1 athlete, I developed discipline and teamwork, essential qualities for the fast-paced financial industry.</p>
-  <p>Here is my Linkin profile, lets connect! <a href="https://www.linkedin.com/in/ramiro-diaz-1a5a4222a/" target="_blank">Ramiro Diaz</a>
+      <div class="about-me-container">
+        <h2>About Me</h2>
+        <p>Finance and economics student with a passion for financial markets.</p>
+        <p>My academic experience includes hands-on investment management and consulting roles, where I honed analytical and problem-solving skills. </p>
+        <p>As a D1 athlete, I developed discipline and teamwork, essential qualities for the fast-paced financial industry.</p>
+        <p>Here is my Linkin profile, let's connect! <a href="https://www.linkedin.com/in/ramiro-diaz-1a5a4222a/" target="_blank">Ramiro Diaz</a></p>
+      </div>
 
-</div>
+      <div class="education-interest-container">
+        <table>
+          <h2>Education </h2>
+          <table class="Education and Interest">
+            <tbody>
+              <tr>
+                <th>Education</th>
+                <th>Interest</th>
+              </tr>
+              <tr>
+                <td>
+                  <ol type="a">
+                    <li>Studying at the University of Wisconsin-Green Bay</li>
+                    <li>Bachelor in Finance and Economics with minor in Computer Science</li>
+                    <li>Expected graduation on May 2026</li>
+                  </ol>
+                </td>
+                <td>
+                  <li>Sports</li>
+                  <li>Movies</li>
+                  <li>Cars</li>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </table>
 
-<div class="education-interest-container">
-  <table>
-	  <h2>Education </h2>
-  <table class="Education and Interest">
-		<tbody><tr>
-			<th>Education</th>
-			<th>Interest</th>		
-		</tr>
-		<tr>
-			<td>
-				<ol type="a">
-					      <li>Studying at the University of Wisconsin-Green Bay</li>
-         				      <li>Bachelor in Finance and Economics with minor in Computer Science</li>
-	  				      <li>Expected graduation on May 2026</li>
-				</ol>
-			</td>
-			 <td>
-			          <li>Sports</li>
-			          <li>Movies</li>
-				  <li>Cars</li>
-			 </td>
-		</tr>
-	</tbody></table> <!-- Section the ordered and unordered list -->
-	      
- <div class="Fun Facts about me">
         <div class="Fun Facts about me">
+          <div class="Fun Facts about me">
             <h2>Fun Facts about me</h2>
-            <ol>   <!-- Ordered list for fun facts about me -->
-                <li>D1 Student Athlete in the US for swimming</li>
-                <li>Became part of the Peruvian National Swimming Team and participated in different internatinoal compeptitions/li>
-                <li>Learn how to swim by accident</li>
+            <ol>
+              <li>D1 Student Athlete in the US for swimming</li>
+              <li>Became part of the Peruvian National Swimming Team and participated in different international competitions</li>
+              <li>Learned how to swim by accident</li>
             </ol>
+          </div>
         </div>
-    </div>
-</body> <!-- Section the ordered list -->
-	      
- <div class="Hobbies">
-        <h2>Hobbies</h2>
-        <table class="Hobbies">  
-            <tbody><tr>
-                <td>Travelling 🧳 </td>
-                <td>I love discovering new places and visiting new countries</td>
-            </tr>
-            <tr>
-                <td>Eating 🍽️ </td>
-                <td>Food is something that makes me happy, so for me, it is exiting to try new dishes</td>
-            </tr>
-            <tr>
-                <td>Cars 🚗 </td>
-                <td>I recently bought myselft a car and a love it!</td>
-            </tr>
-        </tbody></table>
-    </div> <!--I have used unicode for emoji-->
-	      
-    <footer>
-        © 2024 My Website by Ramiro Diaz | All rights reserved.
-    </footer>
+      </div>
 
+      <div class="Hobbies">
+        <h2>Hobbies</h2>
+        <table class="Hobbies">
+          <tbody>
+            <tr>
+              <td>Travelling 🧳</td>
+              <td>I love discovering new places and visiting new countries</td>
+            </tr>
+            <tr>
+              <td>Eating 🍽️</td>
+              <td>Food is something that makes me happy, so for me, it is exciting to try new dishes</td>
+            </tr>
+            <tr>
+              <td>Cars 🚗</td>
+              <td>I recently bought myself a car and I love it!</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+  </div>
+
+  <footer>
+    © 2024 My Website by Ramiro Diaz | All rights reserved.
+  </footer>
+</body>
+</html>
 
 
 
